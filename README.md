@@ -2,6 +2,8 @@
 
 A free, open-source [VCV Rack](https://vcvrack.com/) plugin that turns any MIDI controller into a matrix of control voltages — styled after the legendary [FaderFox PC12](https://faderfox.de/) hardware controller.
 
+![Virtual FaderFox PCn in VCV Rack](docs/images/module-overview.png)
+
 ## What it does
 
 **Virtual FaderFox PCn** listens for MIDI Continuous Controller (CC) messages and converts them into CV on a grid of output ports — one port per knob, fader, or encoder on your controller:

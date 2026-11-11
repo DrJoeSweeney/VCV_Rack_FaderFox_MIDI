@@ -29,6 +29,8 @@ Everything — grid size, MIDI channel, CC assignments, voltage ranges — is sa
 
 ## Panel tour
 
+![The module panel: 6×12 grid with patched cables](images/module-overview.png)
+
 ### The grid
 
 Each cell is one CV output port, drawn as a FaderFox-style encoder knob with a jack socket in the center. Ports are numbered by row (left edge) and column (bottom edge), matching the layout of the hardware.
@@ -77,6 +79,8 @@ Notes:
 
 ## Right-click menu
 
+![The module's right-click context menu](images/context-menu.png)
+
 ### MIDI driver / MIDI device
 
 Selects which MIDI input the module listens to. Defaults to the first available driver and device, so it usually works out of the box. If you plug in your controller after adding the module, reselect it here.
@@ -118,11 +122,15 @@ Removes every CC assignment (leaves grid size, ranges, and MIDI settings alone).
 
 ### About FaderFox
 
+![The About FaderFox popup](images/about-faderfox.png)
+
 A short note about the hardware that inspired the module, with a link to [faderfox.de](https://faderfox.de/).
 
 ---
 
 ## Included presets
+
+![Factory presets in the module's Preset submenu](images/presets-menu.png)
 
 The module ships with ready-made presets (module right-click → *Preset*, or the preset menu in the toolbar). They reflect the factory CC layouts of the FaderFox PC12:
 
