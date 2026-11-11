@@ -1,0 +1,26 @@
+{
+  "slug": "VirtualFaderFox",
+  "name": "FaderFox PCn",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "FaderFox",
+  "author": "DrJoeSweeney",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/DrJoeSweeney",
+  "pluginUrl": "https://github.com/DrJoeSweeney/VCV_Rack_FaderFox_MIDI",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/DrJoeSweeney/VCV_Rack_FaderFox_MIDI",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FaderFoxPCn",
+      "name": "FaderFox PCn",
+      "description": "Configurable rows x columns MIDI CC-to-CV encoder matrix with MIDI learn, styled after the FaderFox PC12.",
+      "tags": [
+        "MIDI",
+        "Controller"
+      ]
+    }
+  ]
+}
