@@ -4,6 +4,14 @@
 
 It is designed to make connecting a FaderFox PC12 (or any similar MIDI controller) to VCV Rack fast and easy: no per-port MIDI mapping dialogs, just click a port and turn a knob.
 
+## Works with any MIDI controller
+
+Despite the name and styling, this module is **not** tied to the FaderFox PC12. It responds to plain MIDI CC messages, so any device that sends CC will work: keyboard controllers with encoder banks (Novation, Akai, Arturia…), DJ mixers, Control Voltage-capable control surfaces, an iPad running a CC app over a MIDI interface, or even another piece of software sending virtual MIDI. Click a port, wiggle a control, and it's mapped.
+
+## Using a real FaderFox PC12
+
+If you do own the hardware, there's a bonus: the PC12 can send a **snapshot** of all its current encoder positions. Press the **red SHIFT button and the green 12 button** together, and the PC12 transmits every CC value at once — the module updates all mapped ports instantly, so the virtual knobs and CV outputs jump to match the physical hardware exactly. Do this after loading a patch or switching setups on the PC12 to get the hardware and the module back in sync.
+
 ---
 
 ## Quick start
